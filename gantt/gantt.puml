@@ -1,0 +1,23 @@
+@startuml
+''https://plantuml.com/sequence-diagram
+'
+'autonumber
+'
+'Alice -> Bob: Authentication Request
+'Bob --> Alice: Authentication Response
+'
+'Alice -> Bob: Another authentication Request
+'Alice <-- Bob: another authentication Response
+
+class Tarea{
+    - estado: string
+    - nombre: string
+    - due_date : Date
+}
+
+class Proyecto {
+-nombreProyecto: string
+}
+Proyecto o-- "*" Tarea
+
+@enduml
