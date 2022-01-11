@@ -1,6 +1,7 @@
 # Created by CESAR at 20/12/2021
 # language: es
-Característica Como gerente de  proyecto deseo automatizar
+Característica Asignación de tareas automáticas
+  Como gerente de  proyecto deseo automatizar
   la asignación de tareas en función de su prioridad para
   mejorar la producción  minimizando el tiempo de espera de
   toma de decisiones y no genera tareas en cola de alta prioridad.
@@ -27,3 +28,4 @@ Característica Como gerente de  proyecto deseo automatizar
     Dado que no se tienen tareas para asignarse
     Cuando se realice la asignación de tareas
     Entonces no se modificará ninguno registro de asignación
+

@@ -1,6 +1,7 @@
 # Created by CESAR at 20/12/2021
 # language: es
-Característica: Como gerente del proyecto deseo poder visualizar las tareas completadas
+Característica: Verificación de rendimiento laboral
+  Como gerente del proyecto deseo poder visualizar las tareas completadas
   por los empleados para verificar el rendimiento laborar de cada uno de ellos y así conocer
   si se está cumpliendo con sus actividades designadas.
 
@@ -17,3 +18,4 @@ Característica: Como gerente del proyecto deseo poder visualizar las tareas com
       | Ejecución de Pruebas   | 28-08-2022  | 01-12-2022 | Rosa        |
     Cuando se presente el diagrama de Gantt con todas las tareas
     Entonces las tareas que estén completadas estarán marcadas
+
