@@ -23,6 +23,10 @@
 'HOURS
 'MINUTES
 '}
+class Miembro {
+    nombre: string
+}
+
 class Tarea{
     -nombre: string
     -fechaInicio: DateTime
@@ -35,5 +39,6 @@ class Proyecto{
 }
 
 Proyecto o-- "*" Tarea
+Miembro "1" o-- "*" Tarea
 
 @enduml

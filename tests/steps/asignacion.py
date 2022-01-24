@@ -1,5 +1,8 @@
 from behave import *
 
+from Gantt.models import Proyecto, Tarea
+
+
 @step("que se ingresan las siguientes tareas:")
 def step_impl(context):
     #      | nombre                     | fechaInicio | fechaFin   | responsable | prioridad |
@@ -9,7 +12,7 @@ def step_impl(context):
     """
     :type context: behave.runner.Context
     """
-    raise NotImplementedError(u'que se ingresan las siguientes tareas:')
+
 
 
 @step("se realiza la asignación de tareas")
